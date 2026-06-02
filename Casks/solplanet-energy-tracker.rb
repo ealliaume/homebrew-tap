@@ -2,10 +2,10 @@
 # `ealliaume/homebrew-tap` repo at `Casks/solplanet-energy-tracker.rb` (plan §4,
 # §8). The release workflow's `update-tap` job rewrites `version` + `sha256`
 # there on every `vX.Y.Z` tag — keep the field formatting it `sed`s for intact:
-#   sed 's/version "..."/.../'  and  sed 's/sha256 "..."/.../'
+#   sed 's/version "1.0.0"/.../'
 cask "solplanet-energy-tracker" do
-  version "1.0.1"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "1.0.0"
+  sha256 "19dc7edeb63361bd398b1b91735fc67aaae214eb782ca210187e427690e4be57"
 
   url "https://github.com/ealliaume/mac-solplanet-energy-tracker/releases/download/v#{version}/Solplanet-Energy-Tracker.zip"
   name "Solplanet Battery Energy Tracker"
